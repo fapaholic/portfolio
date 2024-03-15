@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html:focus-within{
+    scroll-behavior: smooth;
+
+}
+
+@media(prefers-reduced-motion){
+    html:focus-within{
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    background-color: rgb(212, 245, 222);
+    overflow-x: hidden;
+}
+
+.top a {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Titan One";
+}
+
+.li:hover {
+    background-color: rgb(245, 225, 245);
+}
+
+.li:active {
+    background-color: rgb(247, 212, 247);
+}
+
+.li {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-style: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: all 0.15s;
+    
+}
+
+
+.top {
+    position: fixed;
+    width: 1910px;
+    padding-right: 10px;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgb(187, 240, 253);
+    box-shadow: 0px 5px 20px rgb(37, 20, 53);
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+}
+
+
+.img img {
+    object-fit: contain;
+}
+
+.img {
+    overflow: hidden;
+    width: 1920px;
+    display: block;
+    height: 500px;
+}
+
+.set {
+    font-family: "Titan One";
+    text-align: center;
+    margin-top: 175px;
+    font-size: 100px;
+    background: -webkit-linear-gradient(#fdd2d2, #1bb134);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name{
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 74px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.details{
+    color: rgb(100, 100, 100);
+    font-family: arial;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.a1 {
+    display: flex;
+    border: 1px white;
+    height: 475px;
+    background-color: white;
+}
+
+.a1 img {
+    width: 400px;
+    height: fit-content;
+    border-radius: 200px;
+    border: white 10px solid;
+    margin-top: -100px;
+    margin-left: 50px;
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.479);
+}
+
+.sec2{
+    background-color: rgb(252, 220, 246);
+    min-height: 100vh;
+}
+
+
+.main{
+    display: flex;
+}
+
+.text-content{
+    background-color: rgb(250, 174, 236);
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.315);
+}
+
+.sec3{
+    background-color: rgb(253, 250, 207);
+    min-height: 100vh;
+}
